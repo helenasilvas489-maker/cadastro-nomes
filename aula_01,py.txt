@@ -1,0 +1,23 @@
+#Entrada e saída de dados
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+
+print("Olá,", nome)
+print("Você tem", idade, "anos")
+
+# Este é um comentário simples
+print("Olá mundo")
+
+'''Este é um comentário de múltiplas linhas'''
+def calcular_tensao(forca, area):
+    """
+    Calcula a tensão mecânica.
+
+    Parâmetros:
+    forca (float): força aplicada em Newton
+    area (float): área em metros quadrados
+
+    Retorna:
+    float: tensão em Pascal
+    """
+    return forca / area
